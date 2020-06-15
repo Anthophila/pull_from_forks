@@ -1,8 +1,10 @@
 name: "Code scanning - action"
 
 on:
-  push: [master]
+  push: 
+    branches: [master]
   pull_request:
+    branches: [master]
   schedule:
     - cron: '0 0 * * 0'
 
