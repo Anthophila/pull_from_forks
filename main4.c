@@ -4,5 +4,4 @@ int main(int argc, char **argv) {
        copy2 = (char *)malloc(strlen(argv[0]));
        strcpy(copy2, argv[0]);
        return copy2;
-
 }
